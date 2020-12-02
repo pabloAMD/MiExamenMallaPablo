@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.miexamenmallapablo.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_inicioFragmentFragment"
+            app:destination="@id/inicioFragmentFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicioFragmentFragment"
+        android:name="com.example.miexamenmallapablo.InicioFragmentFragment"
+        android:label="InicioFragmentFragment" />
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.miexamenmallapablo.RegistroFragment"
+        android:label="RegistroFragment" >
+        <action
+            android:id="@+id/action_registroFragment_to_inicioFragmentFragment"
+            app:destination="@id/inicioFragmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acercaFragment"
+        android:name="com.example.datospersona.AcercaFragment"
+        android:label="AcercaFragment" />
+    <fragment
+        android:id="@+id/buscarFragment"
+        android:name="com.example.datospersona.BuscarFragment"
+        android:label="BuscarFragment" />
+    <fragment
+        android:id="@+id/contactosFragment"
+        android:name="com.example.datospersona.ContactosFragment"
+        android:label="ContactosFragment" />
+    <fragment
+        android:id="@+id/buscartrabajoFragment"
+        android:name="com.example.datospersona.BuscartrabajoFragment"
+        android:label="BuscartrabajoFragment" />
+</navigation>

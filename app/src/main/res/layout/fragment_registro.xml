@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".RegistroFragment">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:text="Registro" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txt_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Nombres" />
+
+                <TextView
+                    android:id="@+id/txt_apellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Apellidos" />
+
+                <TextView
+                    android:id="@+id/txt_cedula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Cedula" />
+
+                <TextView
+                    android:id="@+id/txt_direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Dirección" />
+
+                <TextView
+                    android:id="@+id/txt_correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Correo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edit_nombres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ingrese nombres"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edit_apellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ingrese apellidos"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edit_cedula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ingrese cedula"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edit_direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ingrese su dirección"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edit_correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ingrese correo"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_registrar"
+                android:layout_width="127dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="Registrar" />
+
+
+        </LinearLayout>
+
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+    </LinearLayout>
+
+
+</layout>

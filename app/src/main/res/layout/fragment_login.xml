@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context=".LoginFragment">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="100dp"
+            android:text="Registro"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese Usuario"
+            android:inputType="textPersonName"/>
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Congt"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Siguiente" />
+
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="202dp"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Registrar" />
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+    </LinearLayout>
+
+
+</layout>
